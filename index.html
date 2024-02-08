@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Forms</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Forms Assignment" />
+    <link href="https://cdn.jsdelivr.net/npm/modern-normalize@v2.0.0/modern-normalize.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+
+<body>
+    <main>
+        <div class="form-container">
+            <form action="">
+                <div class="form-control">
+                    <input class="custom-width" type="text" required>
+                    <label>FULL NAME</label>
+                </div>
+                <div class="form-control">
+                    <input class="custom-width--shorter" type="text" required>
+                    <label>EMAIL</label>
+                </div>
+                <div class="select" >
+                    <label>MESSAGE REGARDING</label>
+                    <select class="custom-width--shorter" id="message" name="message"> 
+                        <option value="Billing">Billing</option>
+                        <option value="Delivery">Delivery</option>
+                        <option value="Feedback">Feedback</option>
+                    </select>
+                    
+                </div>
+                <div class="form-control">
+                    <input class="custom-width" type="text" required>
+                    <label>MESSAGE</label>
+                </div>
+                <div class="btn__div">
+                <button type="submit" class="btn">SEND MESSAGE</button>
+                </div>
+            </form>
+        </div>
+        <div class="yellow-part"></div>
+        <img class="duck" src="images/duck.png" alt="Rubber Ducky"/>
+    </main>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
